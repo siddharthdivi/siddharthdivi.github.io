@@ -1,14 +1,15 @@
 ---
 layout: post
 title: Technical Experience
-subtitle: Each post also has a subtitle
+subtitle: Research Publications and Projects
 gh-repo: siddharthdivi/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [Technical , tech]
 ---
 
 
--**Research Experience**
+-**Research Experience**  
+
 :   **_1. Forecasting Complex Time-Sequenced Sales using Artificial Neural Networks_**  
 This work comprises of online learning and feature engineering by data correlative analysis in conjecture with densely connected Neural Network to address the concept drifts and latent time correlations present in the data respectively, to make day-ahead prediction of food sales for one of the top multiplexes in India.
 <br/>
@@ -20,7 +21,7 @@ Prediction of top k species in a location based on the environmental features gi
 :  **_3. Microsoft Summer Research Workshop 2018_**  
 As part of the MSR Summer Workshop 2018 on 'Machine Learning on Constrained Devices', worked on extending two algorithms Bonsai and ProtoNN for regression. Part of the team that jointly won the MSR research grant. [Link][ref4]
 
--**Projects**
+-**Projects**  
 
 :  **_1. Student Behavioural Modelling System. (ongoing)_**  
 Acquisition of various kinds of data related to the students of a college, to analyze their performance over time, from their freshman year onwards, and also to understand the influence of various factors on their academic and overall performance. [Link] [ref1]

@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Since you've come so far , why not read the remainder ?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
+My name is Siddharth Divi, I'm a Computer Science undergraduate at SSN College of Engineering.
+I'm interested in pursuing my Master's abroad in the fall of 2019 in Computer Science with
+Data Science or Machine Learning, as my electives. 
 
 What else do you need?
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**_Drop in a mail ?_**

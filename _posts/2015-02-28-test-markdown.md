@@ -1,32 +1,35 @@
 ---
 layout: post
-title: Test markdown
+title: Technical Experience
 subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+gh-repo: siddharthdivi/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
 ---
 
-Technical Experience
---------------------
 
-Research Experience
+-**Research Experience**
 :   **_1. Forecasting Complex Time-Sequenced Sales using Artificial Neural Networks_**  
 This work comprises of online learning and feature engineering by data correlative analysis in conjecture with densely connected Neural Network to address the concept drifts and latent time correlations present in the data respectively, to make day-ahead prediction of food sales for one of the top multiplexes in India.
 <br/>
+
 :  **_2. Location Based Species Recommender System._**  
 Prediction of top k species in a location based on the environmental features given in the form of tiff images. Done as part of GeoCLEF part of CLEF 2018 at Avignon, France. The work has been selected as working notes to be published in LNCS part of Springer Journal.
 <br/>
-:  **_3. Microsoft Summer Research Workshop 2018_**  
-As part of the MSR Summer Workshop 2018 on 'Machine Learning on Constrained Devices', worked on extending two algorithms Bonsai and ProtoNN for regression. Part of the team that jointly won the MSR research grant. [Link][ref4] 
 
-Projects
+:  **_3. Microsoft Summer Research Workshop 2018_**  
+As part of the MSR Summer Workshop 2018 on 'Machine Learning on Constrained Devices', worked on extending two algorithms Bonsai and ProtoNN for regression. Part of the team that jointly won the MSR research grant. [Link][ref4]
+
+-**Projects**
+
 :  **_1. Student Behavioural Modelling System. (ongoing)_**  
 Acquisition of various kinds of data related to the students of a college, to analyze their performance over time, from their freshman year onwards, and also to understand the influence of various factors on their academic and overall performance. [Link] [ref1]
 <br/>
+
 :  **_2. Breast Cancer Detection System._**  
 An artificial medical diagnostic system, which aims to supplement / complement doctor's diagnosis, by giving a prediction based on the results of the tests conducted on the patients. This project was undertaken as part of the course " Object Oriented Analysis and Design", using Python + Scikit + Pandas + Django. [Link] [ref2]
 <br/>
+
 :  **_3. DC Motor Closed Loop Speed Control System._**  
 A closed loop speed control system built for a DC Motor using a P controller, in Arduino, with inbuilt PID Library, with the justification of the constants used as well, coupled with a report. [Link][ref3]
 <br/>

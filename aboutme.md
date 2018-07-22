@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: Computer Science Undergrad
 subtitle: Since you've come so far , why not read the remainder ?
 ---
 

@@ -7,7 +7,7 @@ tags: [Research , Technical , tech]
 ---
 
 
-**Research Experience**
+## **Research Experience**
 <br/>
 
 :   **_1. Forecasting Complex Time-Sequenced Sales using Artificial Neural Networks_**  

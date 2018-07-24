@@ -5,7 +5,7 @@ bigimg: /img/path.jpg
 tags: [Projects , tech , Technical]
 ---
 
-**Projects**
+## **Projects**
 <br/>
 
 :  **_1. Student Behavioural Modelling System. (ongoing)_**  

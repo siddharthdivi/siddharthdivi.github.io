@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Technical Experience
-subtitle: Research Publications and Projects
+title: Research Publications
 gh-repo: siddharthdivi/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [Technical , tech]
+tags: [Research , Technical , tech]
 ---
 
 

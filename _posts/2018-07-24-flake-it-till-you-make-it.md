@@ -2,7 +2,7 @@
 layout: post
 title: Projects
 bigimg: /img/path.jpg
-tags: [Projects]
+tags: [Projects , tech , Technical]
 ---
 
 **Projects**

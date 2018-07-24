@@ -212,7 +212,6 @@ prose:
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
-
       - name: "image"
         field:
           element: "text"

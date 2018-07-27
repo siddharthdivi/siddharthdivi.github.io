@@ -9,7 +9,7 @@ tags: [Projects , tech , Technical]
 <br/>
 
 :  **_1. Student Behavioural Modelling System. (ongoing)_**  
-Acquisition of various kinds of data related to the students of a college, to analyze their performance over time, from their freshman year onwards, and also to understand the influence of various factors on their academic and overall performance. [Link] [ref1]
+Acquisition of various kinds of data related to the students of a college, to analyze their performance over time, from their freshman year onwards, and also to understand the influence of various factors on their academic and overall performance. The aim here is to essentially predict the placements of students, i.e. the probability that they'll get placed , if so where , et al. [Link] [ref1]
 <br/>
 
 :  **_2. Breast Cancer Detection System._**  
@@ -17,7 +17,7 @@ An artificial medical diagnostic system, which aims to supplement / complement d
 <br/>
 
 :  **_3. DC Motor Closed Loop Speed Control System._**  
-A closed loop speed control system built for a DC Motor using a P controller, in Arduino, with inbuilt PID Library, with the justification of the constants used as well, coupled with a report. [Link][ref3]
+A closed loop speed control system built for a DC Motor using a P controller, in Arduino, with using the concept of PID controller, with the justification of the constants used as well, coupled with a report. [Link][ref3]
 <br/>
 
 

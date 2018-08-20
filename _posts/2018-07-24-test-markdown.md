@@ -10,8 +10,8 @@ tags: [Research , Technical , tech]
 ## **Research Experience**
 <br/>
 
-:   **_1. Forecasting Complex Time-Sequenced Sales using Artificial Neural Networks_**  
-This work comprises of online learning and feature engineering by data correlative analysis in conjecture with densely connected Neural Network to address the concept drifts and latent time correlations present in the data respectively, to make day-ahead prediction of food sales for one of the top multiplexes in India. It has been submitted to MIT - URTC 2018.
+:   **_1. Forecasting Food Sales in a Multiplex using Dynamic Artificial Neural Networks_**  
+This work comprises of online learning and feature engineering by data correlative analysis in conjecture with densely connected Neural Network to address the concept drifts and latent time correlations present in the data respectively, to make day-ahead prediction of food sales for one of the top multiplexes in India. It has been submitted to FICC 2019.
 <br/>
 
 :  **_2. Location Based Species Recommender System._**  

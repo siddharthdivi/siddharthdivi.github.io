@@ -11,7 +11,7 @@ tags: [Research , Technical , tech]
 <br/>
 
 :   **_1. Forecasting Food Sales in a Multiplex using Dynamic Artificial Neural Networks_**  
-This work comprises of online learning and feature engineering by data correlative analysis in conjecture with densely connected Neural Network to address the concept drifts and latent time correlations present in the data respectively, to make day-ahead prediction of food sales for one of the top multiplexes in India. It has been submitted to FICC 2019.
+This work comprises of online learning and feature engineering by data correlative analysis in conjecture with densely connected Neural Network to address the concept drifts and latent time correlations present in the data respectively, to make day-ahead prediction of food sales for one of the top multiplexes in India. It has been accepted to be presented at Future of Information and Communication Conference (FICC), to be held at San-Fransisco 2019.
 <br/>
 
 :  **_2. Location Based Species Recommender System._**  

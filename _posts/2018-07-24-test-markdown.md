@@ -10,7 +10,7 @@ tags: [Research , Technical , tech]
 ## **Research Experience**
 <br/>
 
-:   **_1. Forecasting Food Sales in a Multiplex using Dynamic Artificial Neural Networks_**  
+:   **_1. Forecasting Food Sales in a Multiplex using Dynamic Artificial Neural Networks._**  
 This work comprises of online learning and feature engineering by data correlative analysis in conjecture with densely connected Neural Network to address the concept drifts and latent time correlations present in the data respectively, to make day-ahead prediction of food sales for one of the top multiplexes in India. It has been accepted to be presented at Future of Information and Communication Conference (FICC) 2019, to be held at San-Fransisco, USA.
 <br/>
 
@@ -22,7 +22,7 @@ Prediction of top k species in a location based on the environmental features gi
 An architecture and it's variants that eliminate the need for data preprocessing and feature engineering, and are also capable of forecasting for any time series dataset across domains, by considering these time series as being auto-correlative. It has been submitted to "Assocation for the Advancement of Artificial Intelligence" (AAAI) Conference 2019 to be held at Hawaii, USA.
 <br/>
 
-:  **_4. Microsoft Summer Research Workshop 2018_**  
+:  **_4. Microsoft Summer Research Workshop 2018._**  
 As part of the MSR Summer Workshop 2018 on 'Machine Learning on Constrained Devices', worked on extending two algorithms Bonsai and ProtoNN for regression. Worked on the Tensorflow version of the edgeML library of MSR, for extending these algorithms. I was also a part of the team that jointly won the MSR research grant. All the code and documentation can be found here. [Link][ref4]
 
 

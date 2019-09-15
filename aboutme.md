@@ -3,9 +3,7 @@ layout: page
 subtitle: Since you've come so far , why not read the remainder ?
 ---
 
-_I'm Siddharth Divi , a Computer Science graduate student at Purdue University, West Lafayette. I'm also a Graduate Teaching Assistant for a graduate level course, CS529 : Security Analytics.
-I'm interested in pursuing my Master's abroad in the fall of 2019 in Computer Science with
-Data Science or Machine Learning, as my major (specialization)._
+_I'm Siddharth Divi , a Computer Science graduate student at Purdue University (2019 - 2021), West Lafayette. I'm also a Graduate Teaching Assistant for a graduate level course, CS529 : Security Analytics. _
 
 _I used to work as a part-time undergraduate research assistant and teaching assistant at
 Solarillion Foundation for close to 2.5 years._

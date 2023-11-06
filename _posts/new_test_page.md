@@ -2,8 +2,15 @@
 layout: post
 title: Test Page
 gh-repo: siddharthdivi/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [Research , Technical , tech]
+gh-badge:
+  - star
+  - fork
+  - follow
+tags:
+  - Research
+  - Technical
+  - tech
+published: true
 ---
 
 

@@ -11,8 +11,6 @@ plugins:
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://siddharthdivi.github.io"
 baseurl: ""
 
@@ -21,24 +19,24 @@ baseurl: ""
 #baseurl: "/projectname"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
-
 # Name of website
-title: Siddharth Divi
+# Name of website
+title: Travelers Project
 
 # Short description of your site
-description: We are all humans.
+description: Story of my life
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resume : "http://siddharthdivi.github.io/assets/SD_Resume.pdf"
+  About Me: "/aboutme"
+  Resume : ""
   Author's home: "http://siddharthdivi.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/sdpic.jpeg"
+avatar: ""
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -82,7 +80,6 @@ social-network-links:
   facebook: siddharth.divi
   github: siddharthdivi
   linkedin: siddharth-divi-725aa451?trk=hp-identity-name
-  telephone: +91 8838994972
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  xing: yourname

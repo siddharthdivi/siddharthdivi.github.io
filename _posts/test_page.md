@@ -1,13 +1,21 @@
 ---
 layout: post
-title: Research Publications
+title: Test Page
 gh-repo: siddharthdivi/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [Research , Technical , tech]
+gh-badge:
+  - star
+  - fork
+  - follow
+tags:
+  - Research
+  - Technical
+  - tech
+published: true
 ---
 
 
 ## **Research Experience**
+
 <br/>
 
 :   **_1. Forecasting Food Sales in a Multiplex using Dynamic Artificial Neural Networks._**  
@@ -25,10 +33,6 @@ An architecture and it's variants that eliminate the need for data preprocessing
 :  **_4. Microsoft Summer Research Workshop 2018._**  
 As part of the MSR Summer Workshop 2018 on 'Machine Learning on Constrained Devices', worked on extending two algorithms Bonsai and ProtoNN for regression. Worked on the Tensorflow version of the edgeML library of MSR, for extending these algorithms. I was also a part of the team that jointly won the MSR research grant. All the code and documentation can be found here. [Link][ref4]
 
-
-[ref1]: https://github.com/py-ranoid/Elementary
-[ref2]: https://github.com/siddharthdivi/Cancer-Detection
-[ref3]: https://github.com/siddharthdivi/Closed-Loop-DC-Motor-Speed-Control-System
 [ref4]: https://github.com/siddharthdivi/EdgeML
 [ref5]: https://link.springer.com/chapter/10.1007/978-3-030-17798-0_8
 [ref6]: http://ceur-ws.org/Vol-2125/

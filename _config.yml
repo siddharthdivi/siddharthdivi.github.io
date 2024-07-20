@@ -1,3 +1,12 @@
+# Use Minimal Mistakes as a remote theme
+remote_theme: "mmistakes/minimal-mistakes@latest"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme # enable remote themes
+  - jekyll-paginate
+  - jekyll-sitemap
+
 # --- General options --- #
 
 # url is the full website URL

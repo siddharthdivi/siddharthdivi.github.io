@@ -1,2 +1,0 @@
-Create a new md file, open https://prose.io/#siddharthdivi/siddharthdivi.github.io, locate the created md file, refresh the change,
-and then the changes will be reflected in the website.

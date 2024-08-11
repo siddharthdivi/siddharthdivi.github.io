@@ -1,6 +1,6 @@
 ---
-title: "Upper Yosemite Falls - A Day Hike"
-excerpt: "A day hike to the Upper Yosemite Falls starting from the Yosemite valley"
+title: "Emigrant Wilderness backpacking"
+excerpt: "3-day 2-night backpacking trip in the Emigrant Wilderness"
 gallery:
   - url: /assets/images/hiking/upper_yosemite_falls_august_2024/IMG_4780.jpg
     image_path: assets/images/hiking/upper_yosemite_falls_august_2024/IMG_4780.jpg
@@ -11,9 +11,8 @@ gallery:
     alt: "placeholder image 3"
 tags: 
     - yosemite
-    - hiking
-    - day-hikes
+    - backpacking
 ---
-Testing out pictures from Google Drive
+Hike Date(s): August 2, 2024 - August 4, 2024
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}

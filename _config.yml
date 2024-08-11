@@ -115,13 +115,13 @@ analytics:
 author:
   name             : "Siddharth Divi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm on a quest to figure out the meaning of life"
+  bio              : ""
   location         : "Milpitas, CA, USA"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "siddhudivi@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -136,7 +136,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/divisiddharth/"
 
 # Site Footer
 footer:
@@ -158,7 +158,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/divisiddharth/"
 
 
 # Reading Files
@@ -324,3 +324,17 @@ defaults:
       comments: # true
       share: true
       related: true
+  # hiking collections object
+  - scope:
+      path: ""
+      type: hiking
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+
+collections:
+  hiking:  # name of the collection
+    output: true
+    permalink: /hikes/:year-:month-:day-:title/

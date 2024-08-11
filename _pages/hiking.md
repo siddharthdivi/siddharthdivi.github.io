@@ -1,7 +1,7 @@
 ---
 title: Hiking
 layout: collection
-permalink: /hikes/
+permalink: /hiking/
 collection: hiking
 entries_layout: grid
 classes: wide

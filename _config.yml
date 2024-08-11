@@ -337,4 +337,4 @@ defaults:
 collections:
   hiking:  # name of the collection
     output: true
-    permalink: /hiking/:path/
+    permalink: /:collection/:path/

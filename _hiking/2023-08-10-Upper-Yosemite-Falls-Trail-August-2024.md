@@ -1,4 +1,5 @@
 ---
+layout: collection
 title: "Upper Yosemite Falls - A Day Hike"
 description: "A day hike to the Upper Yosemite Falls starting from the Yosemite valley"
 tags: 

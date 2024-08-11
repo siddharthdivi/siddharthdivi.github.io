@@ -2,11 +2,11 @@
 title: "Upper Yosemite Falls - A Day Hike"
 excerpt: "A day hike to the Upper Yosemite Falls starting from the Yosemite valley"
 gallery:
-  - image_path: https://drive.google.com/uc?export=view&id=1Nc5jtypfplphBTNAQtuQP92qfyTpUIj5
+  - image_path: /assets/images/hiking/upper_yosemite_falls_august_2024/IMG_4780.jpg
     alt: "placeholder image 1"
-  - image_path: https://drive.google.com/file/d/1KwamZ-6QoGH-IyTWCx1oiNZerbAikCsb/view?usp=drive_link
+  - image_path: /assets/images/hiking/upper_yosemite_falls_august_2024/IMG_8157.jpg
     alt: "placeholder image 2"
-  - image_path: https://drive.google.com/file/d/1j7dZPtu-56ATQrSRN2okXjg54R_XK8OU/view?usp=drive_link
+  - image_path: /assets/images/hiking/upper_yosemite_falls_august_2024/IMG_8172.jpg
     alt: "placeholder image 3"
 tags: 
     - yosemite

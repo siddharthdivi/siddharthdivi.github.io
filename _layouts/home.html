@@ -19,4 +19,21 @@ layout: archive
   {% endfor %}
 </div>
 
+---
+layout: default
+title: "Hiking Adventures"
+permalink: /hikes/
+---
+
+<h1>Hiking Adventures</h1>
+<ul>
+  {% for hike in site.hikes %}
+  <li>
+    <a href="{{ hike.url }}">{{ hike.title }}</a>
+    <span>{{ hike.date | date: "%B %-d, %Y" }}</span>
+  </li>
+  {% endfor %}
+</ul>
+
+
 {% include paginator.html %}

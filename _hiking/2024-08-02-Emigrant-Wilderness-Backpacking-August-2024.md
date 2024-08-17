@@ -18,3 +18,5 @@ tags:
 Hike Date(s): August 2, 2024 - August 4, 2024
 
 {% include gallery id="gallery1" caption="Selected pictures from the backpacking trip." %}
+
+Add details about the trip.

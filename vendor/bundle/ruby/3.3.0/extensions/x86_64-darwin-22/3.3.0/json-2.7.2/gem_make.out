@@ -1,0 +1,16 @@
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+/Users/adgdri/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241011-45017-2wyh8j sitelibdir\=./.gem.20241011-45017-2wyh8j clean
+
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241011-45017-2wyh8j sitelibdir\=./.gem.20241011-45017-2wyh8j
+make: Nothing to be done for `all'.
+
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241011-45017-2wyh8j sitelibdir\=./.gem.20241011-45017-2wyh8j install
+
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241011-45017-2wyh8j sitelibdir\=./.gem.20241011-45017-2wyh8j clean

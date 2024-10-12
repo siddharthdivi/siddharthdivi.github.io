@@ -1,0 +1,18 @@
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/adgdri/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241011-45017-gixvzb sitelibdir\=./.gem.20241011-45017-gixvzb clean
+
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241011-45017-gixvzb sitelibdir\=./.gem.20241011-45017-gixvzb
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241011-45017-gixvzb sitelibdir\=./.gem.20241011-45017-gixvzb install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20241011-45017-gixvzb/racc
+
+current directory: /Users/adgdri/projects/siddharthdivi.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241011-45017-gixvzb sitelibdir\=./.gem.20241011-45017-gixvzb clean

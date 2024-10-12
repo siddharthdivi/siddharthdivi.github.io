@@ -28,8 +28,7 @@ tags:
 ---
 Hike Date(s): August 10, 2024
 
-{% include gallery id="gallery1" class="full" caption="Selected pictures from the day hike."%}
-
-{% include gallery id="gallery2" class="full" caption="More pictures from the day hike."%}
+{% include gallery id="gallery1" class="full" %}
+{% include gallery id="gallery2" class="full" %}
 
 Add details about the trip.

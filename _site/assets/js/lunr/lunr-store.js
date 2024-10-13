@@ -1,12 +1,12 @@
 var store = [{
         "title": "Emigrant Wilderness backpacking",
-        "excerpt":"Hike Date(s): August 2, 2024 - August 4, 2024                                                                                                                                Selected pictures from the backpacking trip.       Add details about the trip.  ","categories": [],
+        "excerpt":"Hike Date(s): August 2, 2024 - August 4, 2024                                                                                                                                                                                                                                                                                                                                                                                    ","categories": [],
         "tags": ["yosemite","backpacking"],
         "url": "/hiking/2024-08-02-Emigrant-Wilderness-Backpacking-August-2024/",
         "teaser": null
       },{
         "title": "Upper Yosemite Falls - A Day Hike",
-        "excerpt":"Hike Date(s): August 10, 2024                                                                                                                                Selected pictures from the day hike.                                                                                                                                    More pictures from the day hike.       Add details about the trip.  ","categories": [],
+        "excerpt":"Hike Date(s): August 10, 2024                                                                                                                                                                                                                                                         ","categories": [],
         "tags": ["yosemite","hiking","day-hikes"],
         "url": "/hiking/2024-08-10-Upper-Yosemite-Falls-Trail-August-2024/",
         "teaser": null

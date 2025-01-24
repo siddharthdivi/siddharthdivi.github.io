@@ -32,7 +32,7 @@ gallery3:
     image_path: assets/images/hiking/Emigrant_Wilderness_Backpacking_August_2024/IMG_8207.jpg
     alt: "placeholder image 9"
 tags: 
-    - yosemite
+    - emigrant
     - backpacking
 ---
 Hike Date(s): August 2, 2024 - August 4, 2024

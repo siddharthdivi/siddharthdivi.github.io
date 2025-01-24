@@ -332,9 +332,20 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # travel collections object
+  - scope:
+      path: ""
+      type: travel
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 
 collections:
   hiking:  # name of the collection
+    output: true
+    permalink: /:collection/:path/
+  travel:  # name of the collection
     output: true
     permalink: /:collection/:path/

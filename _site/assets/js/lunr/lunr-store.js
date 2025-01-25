@@ -14,18 +14,18 @@ var store = [{
         "title": "Iceland: The Land of Fire and Ice - Summer of 2023",
         "excerpt":"Itinerary Conditions in July - ~20 hrs of sunlight Sunrise ~4 AM Sunset ~11 PM High Level Tasklist - Book flight tickets after confirmation of the travel date. ✅ Rental car booking ✅ Decide places to visit ✅ Define an itinerary ✅ Accommodation ✅ Meal-planning/Food ? Schengen Visa Application ✅...","categories": ["travel"],
         "tags": ["travel","iceland","adventure"],
-        "url": "/travel/2025-01-22-iceland-2025/",
+        "url": "/travel/iceland_july_2023/",
         "teaser": null
       },{
         "title": "Alaska",
-        "excerpt":"Alaska Tour Plan Day 1 (11/26/2024) Plan for the Day: Take 4:45 PM flight out of SFO (meals before boarding at SFO or after landing in Seattle) Reach at 12:10 AM in Fairbanks on 11/27 and pick up rental car(s) (All national brands - avis, hertz, budget, national &amp; thrifty-...","categories": ["travel"],
+        "excerpt":"An unforgettable journey through Alaska. Photo Gallery Trip Photo Gallery Alaska Itinerary Day 1: Tuesday, November 26, 2024 Plan for the Day Take 4:45 PM flight out of SFO (meals before boarding at SFO or after landing in Seattle). Arrive in Fairbanks at 12:10 AM (11/27). Pick up rental car(s)...","categories": ["travel"],
         "tags": ["travel","alaska","adventure"],
-        "url": "/travel/2024-11-26-alaska-2024/",
+        "url": "/travel/alaska_nov_2024/",
         "teaser": null
       },{
-        "title": "Exploring the Land of Fire and Ice: Iceland",
+        "title": "Exploring the Land of the Midnight Sun",
         "excerpt":"&lt;to fill details about Norway - 2024&gt;  ","categories": ["travel","iceland"],
         "tags": ["travel","iceland","hiking","adventure"],
-        "url": "/travel/2025-01-22-norway-2025/",
+        "url": "/travel/norway_july_2024/",
         "teaser": null
       }]

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Alaska"
+title: "Alaska - Nov 2024"
 date: 2024-11-26
 collection: travel
 categories: travel
@@ -9,12 +9,10 @@ entries_layout: grid
 classes: wide
 ---
 
-![Alaska Adventure](/assets/images/travel/alaska/IMG_9433.jpg)
+![Alaska Adventure](/assets/images/travel/alaska/IMG_9433.jpg){:.hero-image}
 *An unforgettable journey through Alaska.*
 
-# Photo Gallery
-
-## Trip Photo Gallery
+## Photo Gallery
 
 <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
@@ -76,7 +74,7 @@ classes: wide
     <figcaption></figcaption>
   </figure>
   <figure>
-    <a href="/assets/images/travel/alaska/IMG_5566.jpg" data-lightbox="alaska-gallery" data-title="Nort====">
+    <a href="/assets/images/travel/alaska/IMG_5566.jpg" data-lightbox="alaska-gallery" data-title="Nort">
       <img src="/assets/images/travel/alaska/IMG_5566.jpg" alt="Northern Lights">
     </a>
     <figcaption></figcaption>

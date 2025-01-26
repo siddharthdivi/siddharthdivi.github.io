@@ -56,6 +56,22 @@ search: false
   border-radius: 8px;
 }
 
+/* Target images in posts with a specific class */
+.hero-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
+
+/* Limit the maximum width */
+.hero-image {
+  max-width: 800px; /* Adjust as needed */
+  width: 100%; /* Make it responsive */
+}
+
+
 html, body {
   margin: 0;
   padding: 0;

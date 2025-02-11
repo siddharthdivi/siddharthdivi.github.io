@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Norway - July 2024",
-        "excerpt":" An unforgettable journey road-tripping through Norway in the summer.   Photo Gallery                                                                                                                                                                                                                                                                                                                                                           ","categories": ["travel"],
+        "excerpt":"An unforgettable journey road-tripping through Norway in the summer. Photo Gallery Norway Trip Itinerary Stuff Required: Food/Snacks: To buy here Cereal bars (chewy/ Breakfast Bars (nutri-gain bars) Mixed Nuts/Trail Mix Costco trail-mix blue-berry/pomegranate covered dark chocolate Indian store raisins Trader joe’s thai chile lime cashews Maggi Mac and Cheese bowls...","categories": ["travel"],
         "tags": ["travel","alaska","adventure"],
         "url": "/travel/norway_july_2024/",
         "teaser": null

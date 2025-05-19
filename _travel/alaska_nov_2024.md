@@ -7,6 +7,9 @@ categories: travel
 tags: [travel, alaska, adventure]
 entries_layout: grid
 classes: wide
+excerpt: "Chasing northern lights and icy wilderness in Denali and beyond."
+header:
+    teaser: /assets/images/travel/alaska/IMG_9490.jpg
 ---
 
 ![Alaska Adventure](/assets/images/travel/alaska/IMG_9433.jpg){:.hero-image}

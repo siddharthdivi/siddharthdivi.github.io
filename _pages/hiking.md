@@ -1,8 +1,7 @@
 ---
-title: Hiking
-layout: collection
+title: "Hiking"
 permalink: /hiking/
+layout: hiking-grid
 collection: hiking
-entries_layout: grid
-classes: wide
+author_profile: false
 ---

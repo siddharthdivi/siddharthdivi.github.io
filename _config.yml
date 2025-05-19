@@ -17,7 +17,9 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Exploring the World, One Trail at a Time."
+# title                    : "Exploring the World, One Trail at a Time."
+title                    : "Sid's Trail Journal"
+subtitle                 : "Hiking | Backpacking | Travel Adventures"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Siddharth Divi"
@@ -114,9 +116,9 @@ analytics:
 # Site Author
 author:
   name             : "Siddharth Divi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
-  location         : "Milpitas, CA, USA"
+  avatar           : "/assets/images/profile.jpg"
+  bio              : "Hiker, backpacker, and explorer documenting his journeys one trail at a time."
+  location         : "Bay Area, CA"
   email            :
   links:
     - label: "Email"

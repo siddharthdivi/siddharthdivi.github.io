@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="initial-content">
+  {% if page.header.overlay_image %}
+    {% include page__hero.html %}
+  {% endif %}
+
+  <div class="page__content">
+    {% if page.author_profile or page.sidebar %}
+      {% include sidebar.html %}
+    {% endif %}
+
+    <article>
+      {{ content }}
+    </article>
+  </div>
+</div>

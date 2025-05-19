@@ -7,6 +7,9 @@ categories: travel
 tags: [travel, alaska, adventure]
 entries_layout: grid
 classes: wide
+excerpt: Fjords, ferries, and freedom under Nordic skies.
+header:
+    teaser: /assets/images/travel/norway_july_2024/IMG_7867.jpg
 ---
 
 ![Norwegian Adventure](/assets/images/travel/norway_july_2024/IMG_7867.jpg){:.hero-image}

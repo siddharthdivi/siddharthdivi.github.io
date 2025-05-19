@@ -7,6 +7,9 @@ categories: travel
 tags: [travel, iceland, adventure]
 entries_layout: grid
 classes: wide
+excerpt: Raw and wild — a summer chasing Icelandic myths and mist.
+header:
+    teaser: /assets/images/travel/iceland_july_2023/IMG_4159.jpg
 ---
 
 

@@ -1,8 +1,7 @@
 ---
-title: Travel
-layout: collection
+title: "Travel"
 permalink: /travel/
+layout: travel-grid  # or hiking-grid if you're reusing it
 collection: travel
-entries_layout: grid
-classes: wide
+author_profile: false
 ---

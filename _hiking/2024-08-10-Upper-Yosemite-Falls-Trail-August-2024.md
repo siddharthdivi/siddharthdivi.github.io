@@ -1,6 +1,8 @@
 ---
 title: "Upper Yosemite Falls - A Day Hike"
-excerpt: "A day hike to the Upper Yosemite Falls starting from the Yosemite valley"
+excerpt: "A day hike from the valley floor to one of Yosemite’s tallest waterfalls."
+header:
+  teaser: /assets/images/hiking/Upper_Yosemite_Falls_Trail_Day_Hike_August_2024/IMG_8272.jpg
 gallery1:
   - url: /assets/images/hiking/Upper_Yosemite_Falls_Trail_Day_Hike_August_2024/IMG_1042.jpg
     image_path: assets/images/hiking/Upper_Yosemite_Falls_Trail_Day_Hike_August_2024/IMG_1042.jpg
@@ -25,6 +27,7 @@ tags:
     - yosemite
     - hiking
     - day-hikes
+date: 2024-08-10
 ---
 Hike Date(s): August 10, 2024
 

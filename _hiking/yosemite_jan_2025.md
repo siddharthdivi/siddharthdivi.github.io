@@ -7,6 +7,10 @@ categories: hiking
 tags: [hiking, national parks, adventure]
 entries_layout: grid
 classes: wide
+excerpt: Cold mornings, warm light, and trails to ourselves.
+header:
+    teaser: /assets/images/hiking/yosemite_jan_2025/IMG_9996.jpg
+date: 2025-01-08
 ---
 
 ## Photo Gallery

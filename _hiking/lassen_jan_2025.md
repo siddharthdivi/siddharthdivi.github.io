@@ -1,12 +1,16 @@
 ---
 layout: single
-title: "Lassen Volcanic National Park - January 2025"
+title: "Lassen Volcanic National Park - January"
 date: 2025-01-25
 collection: hiking
 categories: hiking
 tags: [hiking, national parks, adventure]
 entries_layout: grid
 classes: wide
+excerpt: Exploring Lassen's boiling earth under a blanket of snow.
+header:
+    teaser: /assets/images/hiking/lassen_jan_2025/IMG_0365.jpg
+date: 2025-01-15
 ---
 
 ## Photo Gallery

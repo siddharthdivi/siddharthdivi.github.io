@@ -1,6 +1,5 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
 @charset "utf-8";
@@ -60,25 +59,48 @@ search: false
   color: #555;
 }
 
-/* Hero Section */
+/* Clean Hero Section */
 .hero {
   position: relative;
-  width: 100%; /* Full width */
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 50vh; /* Adjust for desired height */
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
+  margin-bottom: 2rem;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 .hero-overlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   padding: 2rem;
   border-radius: 8px;
+  z-index: 2;
+  position: relative;
+  max-width: 500px;
+  margin: 0 1rem;
+}
+
+.hero-overlay p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 /* Target images in posts with a specific class */
@@ -92,10 +114,9 @@ search: false
 
 /* Limit the maximum width */
 .hero-image {
-  max-width: 800px; /* Adjust as needed */
-  width: 100%; /* Make it responsive */
+  max-width: 800px;
+  width: 100%;
 }
-
 
 html, body {
   margin: 0;
@@ -104,15 +125,14 @@ html, body {
   overflow-x: hidden;
 }
 
-
-/* Card Grid */
+/* Clean Card Grid */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
 }
 
-/* Footer */
+/* Clean Footer */
 .footer {
   background: #333;
   color: white;
@@ -120,10 +140,10 @@ html, body {
   padding: 1rem;
 }
 
-/* Featured Content Sections */
+/* Clean Featured Content Sections */
 .featured-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
   list-style: none;
@@ -132,42 +152,249 @@ html, body {
 
 .featured-content li, .featured-content .card {
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
-  padding: 1rem;
+  padding: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-content li:hover, .featured-content .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .featured-content img {
   width: 100%;
-  height: auto;
-  border-bottom: 2px solid #ddd;
-  margin-bottom: 1rem;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .featured-content h3 {
-  margin: 0.5rem 0;
+  margin: 1rem 1rem 0.5rem;
   font-size: 1.25rem;
+  color: #2c3e50;
 }
 
 .featured-content p {
-  color: #555;
-  margin: 0;
+  color: #666;
+  margin: 0 1rem 1rem;
+  line-height: 1.5;
 }
 
 .featured-content a {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 .featured-content a:hover h3 {
-  text-decoration: underline;
+  color: #3498db;
 }
 
-/* Section Headings */
+/* Clean Section Headings */
 .hiking-adventures h2, .travel-adventures h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
+  color: #2c3e50;
+}
+
+/* Category Cards Grid */
+.grid__wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-rows: 1fr !important;
+  gap: 1.5rem !important;
+  padding: 2rem 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.grid__item {
+  background: white !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.grid__item:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.grid__item img {
+  width: 100% !important;
+  height: 180px !important;
+  object-fit: cover !important;
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+  transition: transform 0.2s ease !important;
+}
+
+.grid__item:hover img {
+  transform: scale(1.02) !important;
+}
+
+.grid__item h3 {
+  padding: 1rem 1rem 0.5rem !important;
+  margin: 0 !important;
+  font-size: 1.25rem !important;
+  color: #2c3e50 !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Featured Content Cards */
+.featured-content {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1.5rem !important;
+  margin: 2rem 0 !important;
+  list-style: none !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.featured-content .card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-content .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.featured-content .card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.featured-content .card h3 {
+  padding: 1rem 1rem 0.5rem;
+  margin: 0;
+  font-size: 1.25rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.featured-content .card p {
+  padding: 0 1rem 1rem;
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Clean Archive Items */
+.archive__item {
+  background: white !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  margin-bottom: 2rem !important;
+}
+
+.archive__item:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.archive__item-teaser img {
+  transition: transform 0.2s ease !important;
+  border-radius: 12px 12px 0 0 !important;
+}
+
+.archive__item:hover .archive__item-teaser img {
+  transform: scale(1.02) !important;
+}
+
+.archive__item-body {
+  padding: 1.5rem !important;
+}
+
+.archive__item-title {
+  margin-bottom: 0.5rem !important;
+}
+
+.archive__item-title a {
+  color: #2c3e50 !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 1.3rem !important;
+}
+
+.archive__item-title a:hover {
+  color: #3498db !important;
+}
+
+.archive__item-excerpt {
+  color: #666 !important;
+  line-height: 1.6 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Archive page titles and layout */
+.archive__title {
+  font-size: 2.5rem !important;
+  color: #2c3e50 !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin-bottom: 1rem !important;
+}
+
+.archive__subtitle {
+  font-size: 1.2rem !important;
+  color: #666 !important;
+  text-align: center !important;
+  margin-bottom: 2rem !important;
+  font-style: italic !important;
+}
+
+/* Grid wrapper for archive pages */
+.archive .grid__wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 2rem !important;
+  padding: 2rem 0 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .grid__wrapper {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+    max-width: 100% !important;
+  }
+  
+  .featured-content {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  .archive .grid__wrapper {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
 }

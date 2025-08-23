@@ -1,8 +1,8 @@
 var store = [{
         "title": "Emigrant Wilderness backpacking",
         "excerpt":"Hike Date(s): August 2, 2024 - August 4, 2024                                                                                                                                                                                                                                                                                                                                                                                    ","categories": [],
-        "tags": ["emigrant","backpacking"],
-        "url": "/hiking/2024-08-02-Emigrant-Wilderness-Backpacking-August-2024/",
+        "tags": ["emigrant","backpacking","wilderness","multi-day"],
+        "url": "/backpacking/2024-08-02-Emigrant-Wilderness-Backpacking-August-2024/",
         "teaser": "/assets/images/hiking/Emigrant_Wilderness_Backpacking_August_2024/IMG_8157.jpg"
       },{
         "title": "Upper Yosemite Falls - A Day Hike",

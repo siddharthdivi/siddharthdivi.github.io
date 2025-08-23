@@ -334,6 +334,14 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # backpacking collections object
+  - scope:
+      path: ""
+      type: backpacking
+    values:
+      layout: single
+      author_profile: true
+      share: true
   # travel collections object
   - scope:
       path: ""
@@ -346,6 +354,9 @@ defaults:
 
 collections:
   hiking:  # name of the collection
+    output: true
+    permalink: /:collection/:path/
+  backpacking:  # name of the collection
     output: true
     permalink: /:collection/:path/
   travel:  # name of the collection

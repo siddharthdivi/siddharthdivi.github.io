@@ -36,6 +36,8 @@ gallery3:
 tags: 
     - emigrant
     - backpacking
+    - wilderness
+    - multi-day
 date: 2024-08-02
 ---
 Hike Date(s): August 2, 2024 - August 4, 2024

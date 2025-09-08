@@ -5,6 +5,18 @@ var store = [{
         "url": "/backpacking/2024-08-02-Emigrant-Wilderness-Backpacking-August-2024/",
         "teaser": "/assets/images/hiking/Emigrant_Wilderness_Backpacking_August_2024/IMG_8157.jpg"
       },{
+        "title": "Clouds Rest Backpacking - April 2025",
+        "excerpt":"Trip Date(s): April 15-17, 2025 Trip Overview A spectacular multi-day backpacking adventure to Clouds Rest, one of Yosemite’s most iconic peaks. This trip offered stunning panoramic views of the Yosemite Valley, Half Dome, and the surrounding High Sierra wilderness. Highlights Summit Views: 360-degree panoramas from the Clouds Rest summit Alpine...","categories": [],
+        "tags": ["clouds-rest","backpacking","yosemite","national-parks","multi-day","wilderness"],
+        "url": "/backpacking/2025-04-15-Clouds-Rest-Backpacking-April-2025/",
+        "teaser": "/assets/images/hiking/Clouds_Rest_Backpacking_April_2025/GPTempDownload%208.JPG"
+      },{
+        "title": "Desolation Wilderness Backpacking - May 2025",
+        "excerpt":"Trip Date(s): May 20-23, 2025 Trip Overview An unforgettable multi-day backpacking adventure through the stunning Desolation Wilderness, a pristine alpine landscape featuring crystal-clear lakes, granite peaks, and breathtaking vistas in the heart of the Sierra Nevada. Highlights Alpine Lakes: Multiple pristine lakes perfect for swimming and camping Granite Peaks: Spectacular...","categories": [],
+        "tags": ["desolation-wilderness","backpacking","sierra-nevada","alpine-lakes","granite-peaks","multi-day","wilderness","california"],
+        "url": "/backpacking/2025-05-20-Desolation-Wilderness-Backpacking-May-2025/",
+        "teaser": "/assets/images/hiking/Desolation_Wilderness_Backpacking_May_2025/IMG_0999.jpg"
+      },{
         "title": "Upper Yosemite Falls - A Day Hike",
         "excerpt":"Hike Date(s): August 10, 2024                                                                                                                                                                                                                                                         ","categories": [],
         "tags": ["yosemite","hiking","day-hikes"],
@@ -23,6 +35,12 @@ var store = [{
         "url": "/hiking/lassen_jan_2025/",
         "teaser": "/assets/images/hiking/lassen_jan_2025/IMG_0365.jpg"
       },{
+        "title": "Four Bishops Campground - Eastern Sierras",
+        "excerpt":"Trip Date(s): August 15-17, 2025 Trip Overview A fantastic 3-day camping adventure at Four Bishops Campground in the Eastern Sierras near Bishop, California. This trip featured three incredible hikes: Blue Lake Trail, Big Pine Lakes Trail, and Little Lakes Valley Trail, offering diverse alpine experiences from serene lakes to dramatic...","categories": [],
+        "tags": ["eastern-sierras","camping","four-bishops","bishop","california","wilderness","outdoor-adventure"],
+        "url": "/hiking/2025-08-15-Four-Bishops-Campground-Eastern-Sierras/",
+        "teaser": "/assets/images/hiking/Eastern_Sierras_Camping_August_2025/IMG_2048.jpg"
+      },{
         "title": "Iceland: The Land of Fire and Ice - Summer of 2023",
         "excerpt":"A road-trip of a lifetime. Photo Gallery Conditions in July ~20 hours of sunlight Sunrise: ~4:00 AM Sunset: ~11:00 PM Itinerary Option-1: Full Island Drive Day 1: Saturday, July 1 Morning: Land in KEF, pick up rental car at 8:00 AM. Activities: Visit Blue Lagoon (~23 min drive, pre-booked tickets...","categories": ["travel"],
         "tags": ["travel","iceland","adventure"],
@@ -40,4 +58,10 @@ var store = [{
         "tags": ["travel","alaska","adventure"],
         "url": "/travel/norway_july_2024/",
         "teaser": "/assets/images/travel/norway_july_2024/IMG_7867.jpg"
+      },{
+        "title": "Michigan Upper Peninsula - July 2025",
+        "excerpt":"An unforgettable July 4th weekend exploring the natural beauty of Michigan’s Upper Peninsula. Trip Overview A perfect long weekend getaway to Michigan’s Upper Peninsula during the July 4th holiday. This trip featured stunning Great Lakes shorelines, pristine forests, and charming small towns in one of America’s most beautiful and underrated...","categories": ["travel"],
+        "tags": ["travel","michigan","upper-peninsula","july-4th","adventure","great-lakes"],
+        "url": "/travel/michigan_upper_peninsula_july_2025/",
+        "teaser": "/assets/images/travel/michigan_upper_peninsula_july_2025/IMG_1569_Original.JPG"
       }]

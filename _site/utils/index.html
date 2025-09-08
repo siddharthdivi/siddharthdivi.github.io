@@ -1,0 +1,324 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Travel Portfolio Utilities - Sid’s Trail Journal</title>
+<meta name="description" content="Combining personal website with travel blog">
+
+
+  <meta name="author" content="Siddharth Divi">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Sid's Trail Journal">
+<meta property="og:title" content="Travel Portfolio Utilities">
+<meta property="og:url" content="http://localhost:4000/utils/">
+
+
+  <meta property="og:description" content="Combining personal website with travel blog">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/utils/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Sid's Trail Journal Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+    <!-- Lightbox2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    
+    <!-- Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+  </head>
+
+  <body class="layout--default" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Sid's Trail Journal
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/hiking/"
+                
+                
+              >Hiking</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/backpacking/"
+                
+                
+              >Backpacking</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/travel/"
+                
+                
+              >Travel</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <h1 id="travel-portfolio-utilities">Travel Portfolio Utilities</h1>
+
+<p>This directory contains utility scripts for managing your travel portfolio content.</p>
+
+<h2 id="heic-to-jpg-conversion">HEIC to JPG Conversion</h2>
+
+<p>Convert HEIC images to JPG format for web compatibility.</p>
+
+<h3 id="macos-recommended">macOS (Recommended)</h3>
+
+<p>Use the bash script with macOS’s built-in <code class="language-plaintext highlighter-rouge">sips</code> tool:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./convert_heic_to_jpg.sh /path/to/heic/files
+./convert_heic_to_jpg.sh /path/to/heic/files /path/to/output
+</code></pre></div></div>
+
+<p><strong>Features:</strong></p>
+<ul>
+  <li>Uses macOS built-in <code class="language-plaintext highlighter-rouge">sips</code> tool (no additional dependencies)</li>
+  <li>Interactive option to remove original HEIC files</li>
+  <li>Error handling and progress reporting</li>
+  <li>Batch conversion of all HEIC files in directory</li>
+</ul>
+
+<h3 id="cross-platform">Cross-Platform</h3>
+
+<p>Use the Python script for other platforms:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python convert_heic_to_jpg.py /path/to/heic/files
+python convert_heic_to_jpg.py /path/to/heic/files /path/to/output
+</code></pre></div></div>
+
+<p><strong>Requirements:</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>pillow pillow-heif
+</code></pre></div></div>
+
+<p><strong>Features:</strong></p>
+<ul>
+  <li>Cross-platform compatibility</li>
+  <li>Automatic method selection (sips on macOS, pillow on others)</li>
+  <li>High-quality JPG output with optimization</li>
+  <li>Batch conversion with progress reporting</li>
+</ul>
+
+<h2 id="usage-examples">Usage Examples</h2>
+
+<h3 id="convert-images-for-a-new-trip">Convert images for a new trip:</h3>
+
+<ol>
+  <li><strong>Create directory structure:</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-p</span> assets/images/hiking/Your_Trip_Name_Date
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Copy HEIC images:</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> /path/to/source/<span class="k">*</span>.HEIC assets/images/hiking/Your_Trip_Name_Date/
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Convert to JPG:</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./utils/convert_heic_to_jpg.sh assets/images/hiking/Your_Trip_Name_Date
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Create trip page:</strong>
+    <ul>
+      <li>Copy an existing trip markdown file</li>
+      <li>Update frontmatter with new trip details</li>
+      <li>Update image paths and gallery structure</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="batch-processing-multiple-trips">Batch processing multiple trips:</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Process all hiking trip directories</span>
+<span class="k">for </span><span class="nb">dir </span><span class="k">in </span>assets/images/hiking/<span class="k">*</span>/<span class="p">;</span> <span class="k">do
+    if </span><span class="nb">ls</span> <span class="s2">"</span><span class="nv">$dir</span><span class="s2">"</span><span class="k">*</span>.HEIC 1&gt; /dev/null 2&gt;&amp;1<span class="p">;</span> <span class="k">then
+        </span><span class="nb">echo</span> <span class="s2">"Converting HEIC files in </span><span class="nv">$dir</span><span class="s2">"</span>
+        ./utils/convert_heic_to_jpg.sh <span class="s2">"</span><span class="nv">$dir</span><span class="s2">"</span>
+    <span class="k">fi
+done</span>
+</code></pre></div></div>
+
+<h2 id="tips">Tips</h2>
+
+<ul>
+  <li>Always backup original images before conversion</li>
+  <li>Use descriptive directory names: <code class="language-plaintext highlighter-rouge">Trip_Name_Month_Year</code></li>
+  <li>Convert images before creating the markdown page</li>
+  <li>Remove HEIC files after successful conversion to save space</li>
+  <li>Use high-quality JPG settings (95% quality) for web display</li>
+</ul>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<h3 id="macos-sips-issues">macOS sips issues:</h3>
+<ul>
+  <li>Ensure you’re running on macOS</li>
+  <li>Check that <code class="language-plaintext highlighter-rouge">sips</code> command is available: <code class="language-plaintext highlighter-rouge">which sips</code></li>
+</ul>
+
+<h3 id="python-pillow-issues">Python pillow issues:</h3>
+<ul>
+  <li>Install dependencies: <code class="language-plaintext highlighter-rouge">pip install pillow pillow-heif</code></li>
+  <li>On some systems, you may need to install system libraries for HEIF support</li>
+</ul>
+
+<h3 id="permission-issues">Permission issues:</h3>
+<ul>
+  <li>Make scripts executable: <code class="language-plaintext highlighter-rouge">chmod +x convert_heic_to_jpg.*</code></li>
+  <li>Ensure write permissions on output directory</li>
+</ul>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.instagram.com/divisiddharth/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Sid's Trail Journal</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -71,3 +71,5 @@ A spectacular multi-day backpacking adventure to Clouds Rest, one of Yosemite's 
 **Best Time**: Spring (April-May) for wildflowers, Fall for colors  
 
 *More details and trip report coming soon...*
+
+

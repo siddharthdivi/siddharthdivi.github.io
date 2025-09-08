@@ -119,3 +119,5 @@ The Desolation Wilderness is known for its:
 - **Wildlife**: Deer, marmots, pikas, and various bird species
 
 *More detailed trip report and route information coming soon...*
+
+

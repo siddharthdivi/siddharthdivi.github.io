@@ -5,9 +5,21 @@ layout: default
 <div class="page__content">
     <h1 class="archive__title">{{ page.title }}</h1>
     <p class="archive__subtitle">Explore some of my favorite hikes — from summit scrambles to alpine lakes.</p>
-    <div class="grid__wrapper">
-        {% assign sorted_posts = site.hiking | sort: 'date' | reverse %}
-        {% for post in sorted_posts %}
+    
+    {% assign sorted_posts = site.hiking | sort: 'date' | reverse %}
+    {% assign current_year = '' %}
+    
+    {% for post in sorted_posts %}
+        {% assign post_year = post.date | date: "%Y" %}
+        {% if current_year != post_year %}
+            {% if current_year != '' %}
+                </div>
+            {% endif %}
+            <h2 class="year-header">{{ post_year }}</h2>
+            <div class="grid__wrapper">
+            {% assign current_year = post_year %}
+        {% endif %}
+        
         <div class="archive__item" style="width: 100%; max-width: 300px; margin: 1rem;">
             <div class="archive__item-teaser">
                 {% if post.header.teaser %}
@@ -27,16 +39,30 @@ layout: default
                 <p class="archive__item-excerpt">{{ post.excerpt }}</p>
             </div>
         </div>
-        {% endfor %}
+    {% endfor %}
     </div>
 </div>
 
 <style>
+    .year-header {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #333;
+        margin: 2rem 0 1rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #e0e0e0;
+    }
+
+    .year-header:first-of-type {
+        margin-top: 1rem;
+    }
+
     .grid__wrapper {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1.5rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
     }
 
     /* Hover card animation */

@@ -98,3 +98,4 @@ done
 ### Permission issues:
 - Make scripts executable: `chmod +x convert_heic_to_jpg.*`
 - Ensure write permissions on output directory
+

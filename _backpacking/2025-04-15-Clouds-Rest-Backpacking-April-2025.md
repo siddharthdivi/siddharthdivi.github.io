@@ -73,3 +73,4 @@ A spectacular multi-day backpacking adventure to Clouds Rest, one of Yosemite's 
 *More details and trip report coming soon...*
 
 
+

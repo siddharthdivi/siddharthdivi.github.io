@@ -93,6 +93,12 @@ An unforgettable multi-day backpacking adventure through the stunning Desolation
 - **Solitude**: Fewer crowds compared to summer months
 - **High Elevation**: Experience true alpine wilderness above 8,000 feet
 
+## Trip Video
+
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2em 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/BaZmpb37j5s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Photo Gallery
 
 {% include gallery id="gallery1" class="full" %}
@@ -119,5 +125,6 @@ The Desolation Wilderness is known for its:
 - **Wildlife**: Deer, marmots, pikas, and various bird species
 
 *More detailed trip report and route information coming soon...*
+
 
 

@@ -117,3 +117,4 @@ if [ $converted -gt 0 ]; then
         echo "HEIC files removed."
     fi
 fi
+

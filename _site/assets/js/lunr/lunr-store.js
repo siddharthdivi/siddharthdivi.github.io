@@ -17,6 +17,12 @@ var store = [{
         "url": "/backpacking/2025-05-20-Desolation-Wilderness-Backpacking-May-2025/",
         "teaser": "/assets/images/hiking/Desolation_Wilderness_Backpacking_May_2025/IMG_0999.jpg"
       },{
+        "title": "Glacier National Park Backpacking - September 2025",
+        "excerpt":"Trip Date(s): September 12-17, 2025 Trip Overview What started as a Many Glacier → Cracker Lake (Night 1) → Poia Lake (Night 2) → Elizabeth Lake Foot (Night 3) plan turned into a quick pivot when the ranger station shut down Cracker Lake for bear activity. After hustling to the...","categories": [],
+        "tags": ["glacier-national-park","montana","backpacking","alpine-lakes","multi-day","fall-colors"],
+        "url": "/backpacking/2025-09-12-Glacier-National-Park-Backpacking-September-2025/",
+        "teaser": "/assets/images/hiking/Glacier_Backpacking_Sept_2025/IMG_2356.jpg"
+      },{
         "title": "Upper Yosemite Falls - A Day Hike",
         "excerpt":"Hike Date(s): August 10, 2024                                                                                                                                                                                                                                                         ","categories": [],
         "tags": ["yosemite","hiking","day-hikes"],

@@ -102,6 +102,12 @@ What started as a Many Glacier → Cracker Lake (Night 1) → Poia Lake (Night 2
 - **Remote Camps**: Backcountry permits put us alone at water’s edge night after night.
 - **Star-Filled Nights**: Zero light pollution plus cool, clear skies made for Milky Way wake-up calls.
 
+## Trip Video
+
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2em 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ZaajSjLYJHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Glacier National Park backpacking highlights"></iframe>
+</div>
+
 ## Photo Gallery
 
 {% include gallery id="gallery1" class="full" %}

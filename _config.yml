@@ -12,18 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-# title                    : "Exploring the World, One Trail at a Time."
-title                    : "Sid's Trail Journal"
-subtitle                 : "Hiking | Backpacking | Travel Adventures"
+title                    : "Siddharth Divi"
+subtitle                 : "From invocation to elevation."
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Siddharth Divi"
-description              : "Combining personal website with travel blog"
+description              : "Applied Scientist, hiker, backpacker, and explorer based in the Bay Area."
 url                      : "https://siddharthdivi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -117,25 +115,19 @@ analytics:
 author:
   name             : "Siddharth Divi"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "Hiker, backpacker, and explorer documenting his journeys one trail at a time."
+  bio              : "Applied Scientist working on Speech Recognition. Hiker, backpacker, and explorer."
   location         : "Bay Area, CA"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "siddhudivi@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "mailto:siddhudivi@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/siddharthdivi"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/siddharthdivi"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/divisiddharth/"
@@ -350,15 +342,26 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # projects collections object
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: false
 
 
 collections:
-  hiking:  # name of the collection
+  hiking:
     output: true
     permalink: /:collection/:path/
-  backpacking:  # name of the collection
+  backpacking:
     output: true
     permalink: /:collection/:path/
-  travel:  # name of the collection
+  travel:
+    output: true
+    permalink: /:collection/:path/
+  projects:
     output: true
     permalink: /:collection/:path/

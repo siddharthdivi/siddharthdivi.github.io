@@ -14,11 +14,17 @@
 main:
   - title: "Home"
     url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Research"
+    url: /research/
+  - title: "Resume"
+    url: /assets/SD_Resume.pdf
   - title: "Hiking"
     url: /hiking/
   - title: "Backpacking"
     url: /backpacking/
   - title: "Travel"
     url: /travel/
-  - title: "About"
-    url: /

@@ -28,8 +28,30 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.masthead__inner-wrap {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greedy-nav {
+  margin-left: auto;
+}
+
+.site-title {
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+}
+
+.site-subtitle {
+  font-size: 0.85rem !important;
+  opacity: 0.75;
+  margin-top: 0.15rem;
 }
 
 .photo-gallery {
@@ -358,7 +380,7 @@ html, body {
 /* Archive page titles and layout */
 .archive__title {
   font-size: 2.5rem !important;
-  color: #2c3e50 !important;
+  color: #f0f0f0 !important;
   font-weight: 700 !important;
   text-align: center !important;
   margin-bottom: 1rem !important;
@@ -366,10 +388,21 @@ html, body {
 
 .archive__subtitle {
   font-size: 1.2rem !important;
-  color: #666 !important;
+  color: #b0b8c1 !important;
   text-align: center !important;
   margin-bottom: 2rem !important;
   font-style: italic !important;
+}
+
+/* Year headers on grid pages */
+.year-header {
+  color: #f0f0f0 !important;
+  border-bottom-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Date text inside cards */
+.archive__item small {
+  color: #555 !important;
 }
 
 /* Grid wrapper for archive pages */
